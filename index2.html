@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtmosWave-Ciudades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+ <header>
+        <div class="company-name">
+          <a href="index1.html"><img class="logo"src="/img/logoatmoswave.png" alt="Atmoswave"/></a>
+          <h1> AtmosWave</h1>
+        </div>
+        <nav class="navegacion">
+          <ul class="nav">
+            <li class="navegacion"><a href="index1.html">Datos Climatologicos</a></li>
+          </ul>
+        </nav>
+        <div class="button-container">
+          <button class="reg-btn" onclick="mostrarMensaje()">Registrarse</button>
+          <button class="login-btn" onclick="mostrarMensaje()">Iniciar Sesión</button>
+        </div>
+        
+
+ </header>
+  <main>
+            <article class="page-header">
+                <h1>Ciudades del Mundo!</h1>
+    
+                <label for="cityName">Lugar:</label>
+                <input class="botonciudad" type="text" id="cityName" placeholder="Ciudad">
+            
+                <!-- Un solo botón con dos funciones onclick -->
+                <button class="consultar" onclick="getWeatherAndSearchImages()">Consultar imagenes</button>
+            </article>
+            
+            <div id="images-container">
+                <div class="container">
+                   <div class="row row-cols-1 row-cols-md-2 g-4" id="citicards">
+                      <div class="container-cards">
+                          <div class="col">
+                            <div class="card">
+                             <img src="..." class="card-img-top" alt="...">
+                              <div class="card-body">                 
+                              </div>
+                            </div>
+                          </div>
+                         <div class="col">
+                          <div class="card">
+                           <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">                     
+                            </div>
+                          </div>
+                        </div>
+                       <div class="col">
+                         <div class="card">
+                           <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">                 
+                            </div>
+                         </div>
+                       </div>
+                       <div class="col">
+                          <div class="card">
+                           <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">        
+                            </div>
+                          </div>
+                       </div>
+                     </div>
+                 </div>
+              </div>
+ </main>
+        
+        <footer class="footer">
+            <div class="footer-content container">
+                <element class="link">
+                  <a href="/index.html"><img class="logo1"src="/img/logoatmoswave.png" alt="Atmoswaveciudades"/></a>
+                  <h3 class="titlefoot"> AtmosWave </h3>
+                  <h3 class="copy">&copy; 2023</h3>
+                </element>
+                  <div class="icons">
+                    <ul class="linksocial">
+                       <li><i class='bx bxl-instagram' ></i></li>
+                       <li><i class='bx bxl-linkedin-square' ></i></li>
+                       <li><i class='bx bxl-facebook-square' undefined ></i></li>
+      
+                     </ul>
+                  </div>
+            </div>
+        </footer>
+    
+    
+    
+      <script src="script2.js"></script>
+    </body>
+    </html>
+    
+
