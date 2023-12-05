@@ -15,5 +15,11 @@ AtmosWave-Ciudades es un proyecto que permite a los usuarios buscar imágenes re
 - JavaScript
 
 ## Uso
+Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/Ermapla/ProyectoIV.git
+
+ https://atmoswave.vercel.app/index2.html
 
 
